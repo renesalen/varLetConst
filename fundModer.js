@@ -1,21 +1,18 @@
 //var vs let vs const
 //La Constante es una variable que no cambia
-//La diferencia entre const y let
+//Excepciones en las que Si se puede cambiar la variable en const:
 
-//si ponemos:
-/*
-const edad = 10
-const edad = 20
-//Nos marca error en consola 
-// lo mismo que pasa con let*/
+//La variable que tiene un array si se puede modificar:
+var arrayNumero = [10, 20, 30]
+var arrayNumero = [10, 20, 30, 40]
+console.log(arrayNumero)
 
-//Con let podíamos sobre escribir esa variable:
-/*
-let edad = 10
-edad = 20 */
+//con let podemos modificar:
+let arrayNumber = [10, 20, 30]
+arrayNumber = [10, 20, 30, 40]
+console.log(arrayNumber)
 
-//pero con una constante no podemos sobre escribir esa variable:
-/*
-const edad = 10
-edad = 20 */
-
+//con let podemos modificar Excepcionalmente pero utilizando '.push':
+const arrayNum = [10, 20, 30]
+arrayNum.push = [10, 20, 30, 40]
+console.log(arrayNum)
