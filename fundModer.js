@@ -1,6 +1,12 @@
 //var vs let vs const
-//Si bien let no nos permite declarar 2 veces la misma variable (edad); pero si nos permite cambiar el valor de la edad que ya está declarada:
+//Trabajando con let y bar
 
-let edad = 10
-edad = 20
+var edad = 10
+if(true){
+    var edad = 20
+    console.log(edad)
+}
 console.log(edad)
+//dentro de la condcional nos pinta 20
+//fuera de la condicional no pinta también 20.
+//la variable dentro de la condicional varia el valor del var inicial
