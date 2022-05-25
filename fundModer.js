@@ -1,6 +1,8 @@
 //var vs let vs const
-//con var podemos cambiar valor:
+//con let NO podemos cambiar valor:
+/*
+let edad = 10
+let edad = 20
+console.log(edad)//en consola nos dice que es error. Que la variable edad ha sido ya declarada. */
 
-var edad = 10
-var edad = 20
-console.log(edad)
+let edad = 20
