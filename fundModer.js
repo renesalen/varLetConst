@@ -8,5 +8,6 @@ const persona = {
     edad: 20
 }
 persona.edad = 21
+persona.pais = 'Bolivia'
 console.log(persona) //rpta de edad: 21
 //las constantes cuando son objeto o array son modificables
