@@ -1,8 +1,6 @@
 //var vs let vs const
-//con let NO podemos cambiar valor:
-/*
-let edad = 10
-let edad = 20
-console.log(edad)//en consola nos dice que es error. Que la variable edad ha sido ya declarada. */
+//Si bien let no nos permite declarar 2 veces la misma variable (edad); pero si nos permite cambiar el valor de la edad que ya está declarada:
 
-let edad = 20
+let edad = 10
+edad = 20
+console.log(edad)
